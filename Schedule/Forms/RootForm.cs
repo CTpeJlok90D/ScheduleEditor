@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Расписание2.Forms
+namespace Schedule
 {
 	public partial class RootForm : Form
 	{
 		public RootForm()
 		{
 			InitializeComponent();
-		}
-
-		private void кабинетамиToolStripMenuItem_Click(object sender, EventArgs e)
-		{
-			new ClassRoomsManager().ShowDialog();
 		}
 	}
 }
